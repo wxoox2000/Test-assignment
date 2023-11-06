@@ -1,4 +1,13 @@
 @import-normalize; /* bring in normalize.css styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .trans{
+      transition: 250ms ease-in;
+  }
+}
 
 body {
   margin: 0;
